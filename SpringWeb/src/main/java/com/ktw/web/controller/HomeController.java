@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController // 얘 컨트롤러 입니다
 public class HomeController {
 	
+	
+	
 	@RequestMapping("/index")
 	public String asf() {
 		
