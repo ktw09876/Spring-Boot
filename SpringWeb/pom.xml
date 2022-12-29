@@ -31,10 +31,10 @@
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
 		<dependency>
 		    <groupId>org.apache.tomcat.embed</groupId>
-		    <artifactId>tomcat-embed-jasper</artifactId>
+		    <artifactId>tomcat-embed-jasper</artifactId> 
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
-		<dependency>
+		<dependency> <!-- 코드가 바뀔때마다 자동으로 저장, 서버 재시작 -->
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-devtools</artifactId>
 		    <version>3.0.0</version>
