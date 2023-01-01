@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<!-- 페이지를 조립시켜주는 라이브러리, 요청이 왔을 때 controller 보다 먼저 찾을 수 있도록 한다 -->
+<tiles-definitions>
+  <definition name="customer.notice.list" template="/WEB-INF/view/customer/inc/layout.jsp">
+  <!-- customer.notice.list 페이지 요청이 오면 customer/inc/layout 에 header/visual/aside/main/footer 페이지를 조립해라-->
+    <put-attribute name="header" value="/WEB-INF/view/inc/header.jsp" />
+    <put-attribute name="visual" value="/WEB-INF/view/customer/inc/visual.jsp" />
+    <put-attribute name="aside" value="/WEB-INF/view/customer/inc/aside.jsp" />
+    <put-attribute name="main" value="/WEB-INF/view/customer/norice/list.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+  </definition>
+</tiles-definitions>
